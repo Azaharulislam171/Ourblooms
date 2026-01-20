@@ -27,8 +27,8 @@ function Navbar(){
         {isOpen && (
             <div> 
                 <ul  className={styles.mobile_ul}> 
-                    <li className="caption1" onClick="toggle"> <Link to='/gallery'> GALLERY </Link>  </li>
-                    <li className="caption1" onClick="toggle"> <Link to='/about'> ABOUT </Link>  </li>
+                    <li className="caption1" onClick={toggle}> <Link to='/gallery'> GALLERY </Link>  </li>
+                    <li className="caption1" onClick={toggle}> <Link to='/about'> ABOUT </Link>  </li>
                     <li className="caption1">  <a href="mailto:azaharulislam171@gmail.com"> CONTACT </a>   </li>
                 </ul>
          </div>)}
